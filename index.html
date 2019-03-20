@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Star Collector</title>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="background" class="container-fluid">
+    <div id="title" class="row">
+      <div class="col-4">
+
+      </div>
+      <div class="col-4">
+        <h1>Get the Star Power!</h1>
+      </div>
+      <div class="col-4">
+
+      </div>
+    </div>
+    <div class="row">
+      <div id="blankOutLeft" class="col-1">
+        <!-- Blank Column -->
+
+      </div>
+      <div id="instructions" class="col-3">
+        <div class="row">
+          You will be given a random number at the start of the game.
+        </div>
+        <div class="row">
+          <!-- Blank Row -->
+          <br>
+        </div>
+        <div class="row">
+          There are four stars to choose from. By clicking on a star you will add a certain amount of Star Points to
+          your current total.
+        </div>
+        <div class="row">
+          <!-- Blank Row -->
+          <br>
+        </div>
+        <div class="row">
+          You win the game by matching your total amount of Star Points to the random number of Star Points needed. You
+          lose the game if your total amount of Star Points exceeds the random needed amount.
+        </div>
+        <div class="row">
+          <!-- Blank Row -->
+          <br>
+        </div>
+        <div class="row">
+          During each game the amount of Star Points each star is worth is hidden though it stays the same per game,
+          only changing after each new game is started.
+        </div>
+      </div>
+      <div id="blankMid" class="col-1">
+        <!-- Blank Column -->
+      </div>
+      <div class="col-3">
+        <div id="starPowRow" class="row oneThird">
+          <h2 id="currentSP" class="vertClass"></h2>
+        </div>
+        <div id="star1and2Row" class="row oneThird">
+          <div class="col">
+            <button id="star1" class="vertClass"> <img src="./assets/images/Blue Star.png" class="starImg"> </button>
+          </div>
+          <div class="col">
+            <button id="star2" class="vertClass"><img src="./assets/images/Green Star.png" class="starImg"></button>
+          </div>
+        </div>
+        <div id="winsRow" class="row oneThird">
+          <h3 id="wins" class="vertClass"></h3>
+        </div>
+      </div>
+      <div class="col-3">
+        <div id="powNeedRow" class="row oneThird">
+          <h2 id="spNeeded" class="vertClass"></h2>
+        </div>
+        <div id="star3and4Row" class="row oneThird">
+          <div class="col">
+            <button id="star3" class="vertClass"><img src="./assets/images/Red Star.png" class="starImg"></button>
+          </div>
+          <div class="col">
+            <button id="star4" class="vertClass"><img src="./assets/images/Yellow Star.png" class="starImg"></button>
+          </div>
+        </div>
+        <div id="lossRow" class="row oneThird">
+          <h3 id="loss" class="vertClass"></h3>
+        </div>
+      </div>
+      <div id="blankOutRight" class="col-1">
+        <!-- Blank Column -->
+
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>

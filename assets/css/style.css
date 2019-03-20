@@ -1,0 +1,60 @@
+* {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    color: antiquewhite;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+  }
+
+body{
+    background-image: url(../images/background.jpg);
+}
+
+div #title{
+    align-content: center;
+}
+
+div.col{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+div #instructions{
+    text-align: center;
+}
+
+div.row{
+    text-align: center;
+}
+
+div.oneThird{
+    height: 33.33%;
+    text-align: center;
+    align-content: center;
+}
+
+h2.vertClass{
+    vertical-align: baseline;
+    text-align: center;
+}
+
+h3.vertClass{
+    vertical-align: baseline;
+    text-align: center;
+}
+
+button.vertClass{
+    vertical-align: baseline;
+    text-align: center;
+}
+img{
+    background: none;
+    background-color: transparent;
+}
+img.starImg{
+    width: 85%;
+    background: transparent;
+}
