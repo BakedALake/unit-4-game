@@ -7,7 +7,8 @@
   }
 
 body{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/background-ratio.jpg);
+    background-color: black;
 }
 
 div #title{
